@@ -1,0 +1,127 @@
+/*big tablet*/
+@media only screen and (max-width:1200px){
+    .row {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .header-box {
+        width: 100%;
+        padding: 0 2%;
+   }
+}
+/*big tablet*/
+@media only screen and (max-width:1024px){
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px  0;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .phone-img {
+    width: 50%;
+    height: auto;
+    }
+    .step-box {
+          margin-top: 10px;
+    }
+    .step-box:first-child {
+        padding-right: 3%;
+        text-align: right;
+    }
+    .step-box:last-child {
+        margin-top: 35px;
+        padding-left: 3%;
+        text-align: left;
+    }
+    .work-step {
+        margin-bottom: 40px;
+    }
+
+    .work-step:last-of-type{
+        margin-bottom: 50px;
+    }
+    .cities-section i{
+        margin-right: 5px;
+        width: 25px;
+    } 
+    .big-plan-box {
+        width: 100%; 
+        margin: 0;
+    }
+    
+    .price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 80%;
+       
+    }
+    .cities-section p{
+        font-size: 90%;
+    }
+}
+/*Tablet*/
+@media only screen and (max-width:767px){
+    section{
+        padding: 30px 0;
+    }
+    body {
+        font-size: 16px;
+    }
+    .header-box {
+         width: 100%;
+         padding: 0 5%;
+    }
+    .col {
+        width: 100%;
+        margin: 2% 0;
+    }
+    nav ul{
+        display: none;
+    }
+    h1{
+        font-size:180%;
+    }
+    h2{
+        font-size: 160%;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+    .step-box:first-child {
+       text-align: center;
+    }
+    .phone-img {
+    width: 40%;
+    height: auto;
+    }
+    .work-step {
+        margin-bottom: 20px;
+    }
+
+    .work-step:last-of-type{
+        margin-bottom: 20px;
+    }
+    .number {
+        font-size:120%;
+        height: 40px;
+        width: 40px;
+        border: 2px solid #e67e22;
+        margin-right: 15px;
+        
+
+}
+/*Cell phone*/
+@media only screen and (max-width:481px){
+    section {
+        padding: 25px 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
